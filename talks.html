@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html class="js no-flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths gr_hongtengxu_github_io"
+    lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+    <title>Hongteng Xu | Talks and Tutorials</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./publications/modernizr-2.5.3.min.js.download"></script>
+
+    <script src="./publications/jquery.min.js.download"></script>
+    <script>
+        window.jQuery || document.write('<script src="/js/vendor/jquery-1.7.2.min.js"><\/script>')
+    </script>
+
+    <script src="./publications/spamspan.min.js.download"></script>
+    <script src="./publications/prettify.js.download"></script>
+
+    <link rel="stylesheet" href="./files/social_widget.css">
+    <link rel="stylesheet" href="./files/glyphicons.css">
+    <link rel="stylesheet" href="./files/bootstrap.css">
+    <link rel="stylesheet" href="./files/bootstrap-responsive.css">
+    <link rel="stylesheet" href="./files/app.css">
+    <!-- <link rel="stylesheet" href="./files/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="./files/plugins.js.download"></script>
+    <script type="text/javascript" src="./files/main.js.download"></script>
+    <link rel="canonical" href="http://hongtengxu.github.io/">
+
+    <!-- to toggle text -->
+    <style type="text/css">
+        a.toggle_text_link {
+            cursor: pointer;
+        }
+        
+        pre.invisible_text {
+            display: none;
+        }
+    </style>
+    <script language="javascript" type="text/javascript">
+        function toggle(element) {
+            if (element.style.display == "block") {
+                element.style.display = "none";
+            } else {
+                element.style.display = "block";
+            }
+        }
+    </script>
+</head>
+
+<body class="page page-id-25 page-parent page-template-default top-navbar" data-gr-c-s-loaded="true">
+    <header id="banner" class="navbar navbar-fixed-top" role="banner">
+        <div class="navbar-inner">
+            <div class="container">
+                <nav id="nav-main" class="nav-collapse" role="navigation">
+                    <ul class="nav">
+                        <li class="menu-research">
+                            <a href="http://hongtengxu.github.io/">
+                                <h3>Hongteng Xu</h3>
+                            </a>
+                        </li>
+                        <li class="menu-research">
+                            <a href="./research.html">
+                                <h3>Research</h3>
+                            </a>
+                        </li>
+                        <li class="menu-publications">
+                            <a href="./publication.html">
+                                <h3>Publications</h3>
+                            </a>
+                        </li>
+                        <li class="menu-service">
+                            <a href="./service.html">
+                                <h3>Academic Service</h3>
+                            </a>
+                        </li>
+                        <li class="menu-service">
+                            <a href="./talks.html">
+                                <h3>Talks and Tutorials</h3>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <div id="wrap" class="container" role="document">
+        <div id="content" class="row">
+            <!-- publications div -->
+            <div id="main" class="span12" role="main">
+                <h1>Tutorials</h1>
+                <br>
+                <ul class="n8H08c UVNKR" style="list-style-type: square; margin-left: 0; margin-right: 0; padding: 0;">
+                    <li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
+                        <p dir="ltr" class="CDt4Ke zfr3Q" style="margin-left: 0; padding-left: 0; text-align: left; text-indent: 0;"><h2>Gromov-Wasserstein Learning for Structured Data Modeling (Feb. 24, AAAI 2022, Virtually)</h2></p>
+                    </li>
+                        The last few years have seen the rapid development of machine learning methods for modeling structured data coming from biology, chemistry, network science, natural language processing, and computer vision. 
+                        Recently-developed tools and cutting-edge methodologies coming from the theory of optimal transport, especially the models and the algorithms based on the Gromov-Wasserstein (GW) distance and its variants, have proved to be particularly successful for these tasks. 
+                        An impressive feature of these works is the application of new theoretical and computational techniques of Gromovized optimal transport for comparing probability distributions defined on spaces with complex structures, such as graphs, sets, kernels, Riemannian manifolds, and more metric spaces.
+                        <br>
+                        <br>
+                        This tutorial aims to introduce the machine learning community at large to Gromov-Wasserstein learning (GWL) --- a new machine learning framework that has been proven to be very effective in structured data modeling but is not yet very well-known in the community. 
+                        In this tutorial, I introduce (i) the theoretical fundamentals of GWL, including the definition of GW distance, its properties of GW distance and its connections to other optimal transport distance; 
+                        (ii) the computational methods of GW distance and its variants, the GW-based machine learning models and algorithms; 
+                        (iii) the innovative downstream applications of GWL and the challenges of optimal transport and structured data modeling. 
+                        The content above relates to several areas within the AAAI community, such as machine learning and its applications, nonconvex optimization, stochastic algorithms, and graph modeling and analysis. 
+                        More details can be found in the slides attached below.
+                        <br>
+                        <br>
+                        <h3>Part 1 [Slides]</h3>
+                        <br>
+                        I will first provide an introduction to the basic theory of optimal transport, starting from Wasserstein distance, Wasserstein barycenters, and their power on distribution matching and averaging. 
+                        Beyond the basic theory, I will focus on the optimal transport between the distributions defined on incomparable spaces, and accordingly, I will introduce the Gromov-Wasserstein distance for metric measure spaces (mm-spaces) and the corresponding Gromov-Wasserstein barycenters, showing their feasibility and rationality for such challenging scenarios.
+                        Furthermore, I will consider the metric measure spaces with complex structures and define the GW distance and barycenters for the corresponding structured data like graphs (e.g., molecules, networks, and meshes). 
+                        Finally, I will show the potentials of GW distance to graph matching and partitioning.
+                        <br>
+                        <br>
+                        <h3>Part 2 [Slides]</h3>
+                        <br>
+                        I will elaborate on GW distance and its typical variants proposed in recent years. 
+                        For the classic GW distance, I will introduce its typical optimization algorithms, e.g., conjugated gradient, proximal gradient, Bregman ADMM, and so on. 
+                        Additionally, the variants for the acceleration and the extension of GW distance are introduced, including low-rank GW distance, fused GW distance, hierarchical GW distance, sliced GW distance, unbalanced GW distance, etc.
+                        <br>
+                        <br>
+                        <h3>Part 3 [Slides]</h3>
+                        <br>
+                        In this part, I will leverage the GW-related distance to reformulate some existing machine learning methods and propose some new models and algorithms. 
+                        In particular, we will introduce the applications of GW diatance to generative modeling (e.g., the GW-GAN for coupled generative models and the relationally-regularized Wasserstein autoencoder), graph representation method (e.g., GW factorization model), and graph generation (e.g., GW-based graphon estimator and graphon autoencoder).
+                        Finally, I will discuss some ongoing research and interesting directions in the study of GW distance-based machine learning.
+                </ul>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+
+    <footer id="content-info" class="container" role="contentinfo">
+        <table width="100%">
+            <tbody>
+                <tr>
+                    <td>
+                        <p class="copy"><small>© 2022 Hongteng Xu</small></p>
+                    </td>
+                    <td style="text-align:right">
+                        <script type="text/javascript" src="//rf.revolvermaps.com/0/0/4.js?i=57g8g4mig5b&amp;m=0&amp;h=128&amp;c=ff0000&amp;r=0" async="async"></script>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </footer>
+
+    <div id="cntvlive2-is-installed"></div>
+</body>
+
+</html>
