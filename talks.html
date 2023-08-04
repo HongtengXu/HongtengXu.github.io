@@ -110,27 +110,47 @@
                     <li dir="ltr" class="TYR86d wXCUfe zfr3Q" style="margin-left: 15pt;">
                         <p dir="ltr" class="CDt4Ke zfr3Q" style="margin-left: 0; padding-left: 0; text-align: left; text-indent: 0;">
                             <h2>Advances in Optimal Transport-based Machine Learning</h2>
-                            <h4>8 AM - 11 PM, Aug. 19, 2023, UTC+8, Macao, IJCAI [Slides]</h4>
+                            <h4>8 AM - 11 PM, Aug. 19, 2023, UTC+8, Macao, IJCAI [Slides will be released soon]</h4>
                             <h4>Hongteng Xu</h4>
                         </p>
                         <br>
                     </li>
-                        More details will be shown here in these days.
+                        The last few years have seen the rapid development of machine learning methods for natural language processing, computer vision, and scientific discovery. 
+                        Recently-developed tools and cutting-edge methodologies from the theory of optimal transport (OT), especially the models and algorithms based on the optimal transport distance and its variants, have been particularly successful for these applications. 
+                        An impressive feature of these works is applying new theoretical fruits and computational techniques of various optimal transport distances for comparing probability measures defined on metric spaces with complex structures. 
                         <br>
                         <br>
-                        <h3>Part 1</h3>
-                        <br>
-                        Computational optimal transport
-                        <br>
-                        <br>
-                        <h3>Part 2</h3>
-                        <br>
-                        OT-based generative modeling
+                        In the proposed tutorial, I plan to introduce the machine learning community to recent advances in computational optimal transport methods, their theoretical foundations, and the corresponding optimal transport-based learning paradigms, especially those proven to be very effective in challenging tasks but are not yet well-known.
+                        In particular, I will introduce (i) the theoretical and computational fundamentals of optimal transport, from the formulations of classic optimal transport distance and its variants to their computation and acceleration methods; 
+                        (ii) the optimal transport-based approaches for high-dimensional data generation and structured data generation, respectively, covering all mainstream generative modeling paradigms (e.g., autoencoders and GANs) and classic nonparametric generative models (e.g., graphons); 
+                        (iii) the applications of optimal transport to privacy-preserving machine learning, including robust multi-modal learning and distributed domain adaptation.
+                        The content above relates to several areas within the IJCAI community, such as statistical machine learning, optimization algorithms, and various cutting-edge machine learning applications, including multi-modal representation learning, structured data (like graphs and point clouds) modeling, and high-dimensional data generation.
                         <br>
                         <br>
-                        <h3>Part 3</h3>
+                        <h3>Part 1: Computational Optimal Transport</h3>
                         <br>
-                        OT-based privacy-preserving machine learning
+                        I will first introduce the basic theory of optimal transport, starting from Wasserstein distance, Wasserstein barycenters, and their power on distribution matching and averaging. 
+                        Beyond the basic theory, I will introduce typical optimization algorithms of the Wasserstein distance and its variants, e.g., Sinkhorn-scaling, proximal gradient, Bregman ADMM, etc. 
+                        Additionally, the variants for the acceleration and the extension of Wasserstein distance are introduced, including low-rank Sinkhorn distance, sliced Wasserstein distance, etc.
+                        <br>
+                        <br>
+                        <h3>Part 2: OT-based Generative Modeling</h3>
+                        <br>
+                        In this part, I will introduce mainstream generative modeling methods, including autoencoders (AEs) and generative adversarial networks (GANs), from the perspective of optimal transport. 
+                        Wasserstein autoencoder, Wasserstein GAN, and their variants will be introduced and analyzed in-depth. 
+                        Besides the generative models of high-dimensional data, I will further introduce the generative models of structured data like graphs based on the Gromovization of optimal transport.
+                        In particular, Gromov-Wasserstein (GW) distance and barycenters will be introduced. 
+                        Based on the GW distance, I will introduce the learning paradigms of nonparametric and parametric graph generators, respectively.
+                        <br>
+                        <br>
+                        <h3>Part 3: OT-based Privacy-preserving Machine Learning</h3>
+                        <br>
+                        In this part, I will introduce recent advances in privacy-preserving machine learning achieved by optimal transport-based methods. 
+                        Some representative OT-based learning methods will be shown, including the OT-based robust multi-modal learning paradigms for unaligned data, e.g., the Gromov-Wasserstein multi-modal clustering method and the hierarchical optimal transport (HOT) multi-modal classifier.
+                        These methods extend classic multi-kernel fusion (MKF) and canonical component analysis (CCA) to unaligned multi-modal scenarios.
+                        Without using the correspondence among different modalities' samples, these methods can protect data privacy efficiently.
+                        Finally, I will introduce a decentralized optimization method of entropic optimal transport and apply it to distributed domain adaptation.
+                        This work explores the possibility of approximating Wasserstein distance in distributed systems and without data sharing.
                 </ul>
                 <br>
                 <br>
@@ -154,7 +174,7 @@
                         (ii) the computational methods of GW distance and its variants, the GW-based machine learning models and algorithms; 
                         (iii) the innovative downstream applications of GWL and the challenges of optimal transport and structured data modeling. 
                         The content above relates to several areas within the AAAI community, such as machine learning and its applications, nonconvex optimization, stochastic algorithms, and graph modeling and analysis. 
-                        More details can be found in the slides attached below.
+                        More details can be found in the slides attached above.
                         <br>
                         <br>
                         <h3>Part 1</h3>
